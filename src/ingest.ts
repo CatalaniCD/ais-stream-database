@@ -90,7 +90,7 @@ function connectWebSocket(): void {
         const subscriptionMessage = {
             APIKey: API_KEY,
             // Bounding box filter (e.g., configured for regional waters / Paraná River corridor or global if desired)
-	    BoundingBoxes: [[[-35.50, -60.95], [-32.40, -55.80]]],
+	    BoundingBoxes: [[[-35.10, -61.05], [-32.50, -56.30]], [[-34.25, -60.45], [-33.20, -58.85]], [[-35.00, -58.60], [-34.30, -56.30]]],
             FilterMessageTypes: ["PositionReport"]
         };
         
