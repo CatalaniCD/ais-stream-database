@@ -92,16 +92,16 @@ function connectWebSocket(): void {
             // Bounding box filter (e.g., configured for regional waters / Paraná River corridor or global if desired)
 	    BoundingBoxes: [
 		// 1. Timbúes to Rosario
-		[-33.15, -60.95],
-		[-32.40, -60.45],
+		[[-33.15, -60.95],
+		[-32.40, -60.45]],
 
 		// 2. Rosario to San Pedro
-		[-33.85, -60.80],
-		[-32.80, -59.45],
+		[[-33.85, -60.80],
+		[-32.80, -59.45]],
 
 		// 3. San Pedro to Recalada
-		[-35.50, -60.00],
-		[-33.50, -55.80]
+		[[-35.50, -60.00],
+		[-33.50, -55.80]]
 	    ],
             FilterMessageTypes: ["PositionReport"]
         };
